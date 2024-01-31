@@ -7,6 +7,18 @@
 @import './partials/footer';
 
 main{
+    div.comics{
+    width: 70%;
+    }   
+    article{
+        margin: 1rem;
+    }
+    img{
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        object-position: top;
+        }
     section{
         position: relative;
         button{
