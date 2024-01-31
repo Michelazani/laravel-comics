@@ -7,8 +7,11 @@
 @import './partials/footer';
 
 main{
+    background-color: rgb(28, 28, 28);
     div.comics{
     width: 70%;
+    color: white;
+    text-transform: uppercase;
     }   
     article{
         margin: 1rem;
