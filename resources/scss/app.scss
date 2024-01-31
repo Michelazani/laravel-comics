@@ -3,4 +3,23 @@
 @import './partials/variables';
 
 @import './partials/header';
+@import './partials/jumbotron';
 @import './partials/footer';
+
+main{
+    section{
+        position: relative;
+        button{
+        margin-bottom: 1rem;
+        padding: 0.2rem 1.5rem;
+        color: $white;
+        background-color: $blue;
+        border: none;
+        button.upper-button{
+            position: absolute;
+            bottom: 635px;
+            left: 225px;
+        }
+    }
+    }
+}
