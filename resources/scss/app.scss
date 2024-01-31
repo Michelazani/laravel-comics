@@ -1,2 +1,6 @@
 // prendo bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import './partials/variables';
+
+@import './partials/header';
+@import './partials/footer';
